@@ -1,9 +1,10 @@
 import React from "react";
+import { Hero } from "@/components/Hero";
 
 export default function page() {
   return (
     <div>
-      <h1>Landing Page on test branch</h1>
+      <Hero />
     </div>
   );
 }
